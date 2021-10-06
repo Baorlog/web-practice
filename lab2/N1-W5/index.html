@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký khóa học</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Đăng ký khóa học</h1>
+        <form action="POST" method="post">
+            <div id="name-div" class="row">
+                <label for="name">Họ tên:</label>
+                <input type="text" class="required">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="address-div" class="row">
+                <label for="address">Địa chỉ:</label>
+                <input type="text">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="gender-div" class="row">
+                <label for="gender">Giới tính:</label>
+                <input type="radio" class="required radio" name="gender-group" id="male">Nam
+                <input type="radio" class="required radio" name="gender-group" id="female">Nữ
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="dob-div" class="row">
+                <label for="dob">Ngày sinh:</label>
+                <input type="text" class="required">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="email-div" class="row">
+                <label for="email">E-mail:</label>
+                <input type="text" class="required">
+                <span class="err">Lỗi email rồi bạn êi</span>
+            </div>
+            <div id="phone-div" class="row">
+                <label for="phone">Số điện thoại:</label>
+                <input type="text">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="course-div" class="row">
+                <label for="course">Khóa đăng ký:</label>
+                <input type="checkbox" class="required checkbox" name="course-group" id="english">Tiếng Anh
+                <input type="checkbox" class="required checkbox" name="course-group" id="manage">Quản trị
+                <input type="checkbox" class="required checkbox" name="course-group" id="IT">CNTT
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="username-div" class="row">
+                <label for="username">Tên sử dụng:</label>
+                <input type="text" class="required">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="password-div" class="row">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" class="required">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="passconfirm-div" class="row">
+                <label for="passconfirm">Gõ lại mật khẩu:</label>
+                <input type="password" class="required">
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="note-div" class="row">
+                <label for="note">Ghi chú:</label>
+                <textarea type="text" rows="10" cols="30" ></textarea>
+                <span class="err">Lỗi</span>
+            </div>
+            <div id="buttons-div" class="row">
+                <label for="none"></label>
+                <button class="btn">Chấp nhận</button>
+                <button class="btn">Bỏ qua</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

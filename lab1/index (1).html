@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="top">
+            <img src="./images/banner.png" alt="Đây là 1 banner của trang web">
+        </div>
+
+        <div id="middle">
+            <!-- 19020000 Ho Va Ten -->
+            <div id="left">
+
+                <ul>
+                    <li>
+                        <div><a href="#">Trang chủ</a></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Diễn đàn</a></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Dịch vụ công</a></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Phổ biến kiến thức</a></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="center">center</div>
+
+            <div id="right">right</div>
+
+            <br class="clear" />
+
+        </div>
+
+        <div id="bottom">bottom</div>
+
+    </div>
+
+    <style>
+        #container {
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        #top img {
+            width: 100%;
+        }
+        #middle {
+            margin-top: 2%;
+        }
+
+        #left {
+            display: inline-block;
+            /* background-color: red; */
+            width: 15%;
+        }
+
+        #center {
+            display: inline-block;
+            background-color: green;
+            width: 68%;
+        }
+
+        #right {
+            /* position: absolute; */
+            display: inline-block;
+            background-color: blue;
+            width: 15%;
+            /* right: 0; */
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        ul li {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+
+        ul li div {
+            width: 100%;
+            height: 3.3vh;
+            /* background-image: url("images/bgmenu.gif"); */
+            border: 1px solid rgb(192, 192, 192);
+            border-radius: 5px;
+            background-image: linear-gradient(to top, rgb(172, 222, 255), white);
+            background-size: 100%;
+            padding-top: 10px;
+        }
+
+        ul li div a {
+            text-decoration: none;
+            color: darkblue;
+            padding-left: 20px;
+        }
+
+        ul li div a:hover {
+            color: red;
+        }
+
+        /* ​#left,
+        #center,
+        #right {
+            display: inline;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        } */
+    </style>
+</body>
+
+</html>

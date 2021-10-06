@@ -1,0 +1,2 @@
+Sử dụng flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Sử dụng jquery https://www.w3schools.com/jquery/jquery_get_started.asp

@@ -1,0 +1,3 @@
+This collection of codebases is built by, and owned by, Nguyen Dang Bao Long. The exercises here are simulated part of the exercises built by Mr. Le Dinh Thanh.
+Any questions, requests for corrections and contributions, please send them to email address longndb@vnu.edu.vn.
+Thank you!

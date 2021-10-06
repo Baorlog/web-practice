@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 50%;
+    margin: 0.75%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.row label{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row input{
+    border: solid 1px rgb(170, 170, 170);
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.required{
+    background-color: aqua;
+}
+
+.row input.radio{
+    width: auto;
+    margin-left: 10px;
+}
+
+.row input.checkbox{
+    width: auto;
+    margin-left: 10px;
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+.err {
+    margin-left: 10px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+textarea{
+    resize: none;
+    width: 50%;
+}
